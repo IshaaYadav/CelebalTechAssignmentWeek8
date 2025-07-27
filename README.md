@@ -25,6 +25,7 @@ This RAG chatbot intelligently answers questions using a combination of document
 8. Display on UI:	Streamlit displays the answer, retrieved context, and a bar chart of similarity scores.
 ---
 ## 🧠 Example:
+
 If you ask:
 “What income is needed for loan approval?”<br>
 The app:
@@ -32,6 +33,7 @@ Finds top rows where income is mentioned alongside approved loans.<br>
 Passes those as context to the model.<br>
 Generates an informed, readable answer like:
 “Applicants with a combined income above 6000 have a higher chance of approval, especially with good credit history.”
+
 ---
 ## 📁 Project Structure
 
