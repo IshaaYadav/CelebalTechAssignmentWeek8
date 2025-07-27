@@ -4,7 +4,7 @@ A **Retrieval-Augmented Generation (RAG)** powered chatbot to answer questions a
 > 🔗Chatbot **[🚀 Live App on Streamlit Cloud](https://loanapprovalchatbot.streamlit.app/)**
 
 ## DEMO 🎥 
-[!](demo.gif)
+![](demo.gif)
 ---
 ## 📦 Dataset Source
 
