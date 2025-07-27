@@ -1,0 +1,18 @@
+# Core dependencies
+pandas
+numpy
+scikit-learn
+
+# Streamlit frontend
+streamlit
+
+# Embedding & generation
+sentence-transformers
+transformers
+torch
+
+# Vector store
+faiss-cpu
+
+# Visualization
+matplotlib
