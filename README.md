@@ -26,34 +26,29 @@ This RAG chatbot intelligently answers questions using a combination of document
 ---
 ## 🧠 Example:
 If you ask:
-“What income is needed for loan approval?”
+“What income is needed for loan approval?”<br>
 The app:
-Finds top rows where income is mentioned alongside approved loans.
-Passes those as context to the model.
+Finds top rows where income is mentioned alongside approved loans.<br>
+Passes those as context to the model.<br>
 Generates an informed, readable answer like:
 “Applicants with a combined income above 6000 have a higher chance of approval, especially with good credit history.”
 
 ## 📁 Project Structure
-chatbot-loan-qa/
-├── data/
-│
-├── embeddings/
-│ ├── faiss_index.faiss # FAISS vector store
-│ └── vector_store.pkl # Metadata for chunks
-│
-├── utils/
-│ ├── preprocessing.py # Clean and chunk dataset
-│ ├── embed_store.py # Embedding + FAISS index creation
-│ ├── retrieval.py # Top-k document retriever
-│ └── generator.py # RAG-style text generator
-│
-├── app/
-│ └── streamlit_app.py # Streamlit frontend
-│
-├── demo.gif
-│
-├── requirements.txt
-└── README.md 
+CelebalTechAssignmentWeek8/<br>
+├── data/<br>
+├── embeddings/<br>
+│ ├── faiss_index.faiss # FAISS vector store<br>
+│ └── vector_store.pkl # Metadata for chunks<br>
+├── utils/<br>
+│ ├── preprocessing.py # Clean and chunk dataset<br>
+│ ├── embed_store.py # Embedding + FAISS index creation<br>
+│ ├── retrieval.py # Top-k document retriever<br>
+│ └── generator.py # RAG-style text generator<br>
+├── app/<br>
+│ └── streamlit_app.py # Streamlit frontend<br>
+├── demo.gif<br>
+├── requirements.txt<br>
+└── README.md <br>
 ---
 
 ## 🔧 Technologies Used
@@ -80,8 +75,13 @@ chatbot-loan-qa/
 
 ---
 
-## 🚀 Deployment
+🚀 Deployment
 Deployed on **Streamlit Cloud**:
 
-📄 License This project is licensed under the MIT License.
-👩‍💻 Developed by: Isha Yadav Btech CSE (AIML)
+
+📄 License 
+This project is licensed under the MIT License.
+
+
+👩‍💻 Developed by: 
+Isha Yadav Btech CSE (AIML)
