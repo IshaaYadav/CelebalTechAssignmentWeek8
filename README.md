@@ -34,6 +34,7 @@ Generates an informed, readable answer like:
 “Applicants with a combined income above 6000 have a higher chance of approval, especially with good credit history.”
 
 ## 📁 Project Structure
+
 CelebalTechAssignmentWeek8/<br>
 ├── data/<br>
 ├── embeddings/<br>
