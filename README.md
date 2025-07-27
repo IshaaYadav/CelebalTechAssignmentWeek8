@@ -1,7 +1,7 @@
 # 💬 Loan Approval RAG Q&A Chatbot
 
 A **Retrieval-Augmented Generation (RAG)** powered chatbot to answer questions about **loan approval criteria** based on a real dataset. This app retrieves the most relevant data chunks using **FAISS** and answers intelligently using a **Hugging Face LLM**.
-> 🔗Chatbot **![🚀 Live App on Streamlit Cloud (https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://loanapprovalchatbot.streamlit.app/)**
+> 🔗Chatbot **[![🚀 Live App on Streamlit Cloud](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://loanapprovalchatbot.streamlit.app/)**
 
 ## DEMO 🎥 
 ![](demo.gif)
