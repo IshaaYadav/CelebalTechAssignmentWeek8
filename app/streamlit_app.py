@@ -43,3 +43,23 @@ if query:
     for i, item in enumerate(retrieved_chunks):
         st.markdown(f"**Chunk {i+1} (Score: {item['score']:.2f})**")
         st.code(item["chunk"], language="markdown")
+
+import matplotlib.pyplot as plt
+
+# Visualize similarity scores
+st.subheader("📊 Similarity Scores of Retrieved Chunks")
+
+# Prepare data
+labels = [f"Chunk {i+1}" for i in range(len(retrieved_chunks))]
+scores = [item["score"] for item in retrieved_chunks]
+
+# Normalize scores (optional, FAISS uses L2 distance, lower is better)
+normalized_scores = [1 - (s / max(scores)) for s in scores]
+
+# Plot bar chart
+fig, ax = plt.subplots()
+ax.barh(labels, normalized_scores, color="skyblue")
+ax.set_xlabel("Relevance Score (1 = most relevant)")
+ax.invert_yaxis()
+st.pyplot(fig)
+
